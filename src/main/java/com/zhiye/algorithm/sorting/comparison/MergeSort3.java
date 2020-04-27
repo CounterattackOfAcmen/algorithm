@@ -2,6 +2,10 @@ package com.zhiye.algorithm.sorting.comparison;
 
 import com.zhiye.algorithm.sorting.ISort;
 
+/**
+ * 归并排序<br>
+ * 非递归方式
+ */
 public class MergeSort3 extends MergeSort2 {
     @Override
     public int[] sort(int[] array, int start, int end) {

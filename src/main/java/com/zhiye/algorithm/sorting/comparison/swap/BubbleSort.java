@@ -2,6 +2,9 @@ package com.zhiye.algorithm.sorting.comparison.swap;
 
 import com.zhiye.algorithm.sorting.ISort;
 
+/**
+ * 冒泡排序
+ */
 public class BubbleSort implements ISort {
     @Override
     public int[] sort(int[] array, int start, int end) {

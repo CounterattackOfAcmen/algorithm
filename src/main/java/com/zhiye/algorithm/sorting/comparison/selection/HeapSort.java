@@ -8,7 +8,17 @@ public class HeapSort implements ISort {
         if (start >= end) {
             return array;
         }
-        heapify(array, array.length, 0);
+        int n = array.length;
+        for (int i = n / 2 - 1; i >= 0; i--) {
+            heapify(array, n, i);
+        }
+        int swap;
+        for (int i = n - 1; i >= 0; i--) {
+            swap = array[i];
+            array[i] = array[0];
+            array[0] = swap;
+            heapify(array, i, 0);
+        }
         return array;
     }
 

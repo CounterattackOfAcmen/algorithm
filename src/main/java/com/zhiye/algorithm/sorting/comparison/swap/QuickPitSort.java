@@ -3,7 +3,8 @@ package com.zhiye.algorithm.sorting.comparison.swap;
 import com.zhiye.algorithm.sorting.ISort;
 
 /**
- * 填坑法快速排序
+ * 快速排序<br>
+ * 填坑法
  */
 public class QuickPitSort implements ISort {
     @Override

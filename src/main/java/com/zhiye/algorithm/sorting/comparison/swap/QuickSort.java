@@ -2,6 +2,10 @@ package com.zhiye.algorithm.sorting.comparison.swap;
 
 import com.zhiye.algorithm.sorting.ISort;
 
+/**
+ * 快速排序<br>
+ * 前后指针法
+ */
 public class QuickSort implements ISort {
 
     @Override

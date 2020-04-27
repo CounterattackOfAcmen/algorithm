@@ -4,6 +4,10 @@ import com.zhiye.algorithm.sorting.ISort;
 
 import java.util.Arrays;
 
+/**
+ * 归并排序<br>
+ * 排序后产生新数组
+ */
 public class MergeSort implements ISort {
     @Override
     public int[] sort(int[] array, int start, int end) {

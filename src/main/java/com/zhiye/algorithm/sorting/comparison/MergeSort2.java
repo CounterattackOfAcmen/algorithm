@@ -2,6 +2,10 @@ package com.zhiye.algorithm.sorting.comparison;
 
 import com.zhiye.algorithm.sorting.ISort;
 
+/**
+ * 归并排序<br>
+ * 在原数组中排序
+ */
 public class MergeSort2 implements ISort {
 
     @Override
